@@ -14,3 +14,7 @@ A Singleton service is created when it is first requested. This same instance is
 
 A new instance of a Scoped service is created once per request within the scope. For example, in a web application it creates 1 instance per each http request but uses the same instance in the other calls within that same web request.
 
+**Case 3: Transient**
+
+A new instance of a Transient service is created each time it is requested. 
+
